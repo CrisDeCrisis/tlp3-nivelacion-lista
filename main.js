@@ -2,15 +2,18 @@ const prompt = require('prompt-sync')();
 
 const lista = [];
 
-const personas = prompt("Cuantas personas deseas agregar?: ");
+const alumnos = prompt("Cuantas personas deseas agregar?: ");
 
-for (let i = 0; i < personas; i++) {
+for (let i = 0; i < alumnos; i++) {
     const nombre = prompt("Ingresa el nombre de la persona: ");
     const edad = prompt("Ingresa la edad de la persona: ");
-    const genero = prompt("Ingresa el genero de la persona: ");
+    const nota = prompt("Ingresa la nota: ");
 
-    const persona = [nombre, edad, genero];
-    lista.push(persona);
+    const alumno = [nombre, edad, nota];
+    lista.push(alumno);
 };
 
-console.log(lista);
+console.log('Datos ingresados: ', lista);
+
+lista.sort((a, b) => b[2] - a[2]);
+console.log('Ordenados por nota: ', lista);
