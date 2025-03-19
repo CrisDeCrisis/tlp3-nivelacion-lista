@@ -24,9 +24,9 @@ Este proyecto es una aplicación simple que permite ingresar datos de alumnos, a
 
 Para ejecutar la aplicación, utiliza el siguiente comando:
 
-    ```sh
-    npm run dev
-    ```
+   ```sh
+   npm run dev
+   ```
 
 # Uso del código en Python
 
@@ -37,4 +37,4 @@ Para ejecutar la aplicación, utiliza el siguiente comando:
 
 ## Uso
 
-Para ejecutar la aplicación, simplemente utilizar el boton de ejecuccion de archivo Python.
+Para ejecutar la aplicación, simplemente utilizar el boton de ejecuccion de archivo Python en Visual Studio Code.
